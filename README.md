@@ -1,5 +1,7 @@
 # Shuhei
 
+[日本語版はこちら](./README.ja.md)
+
 I build product systems across mobile, desktop, backend, and developer tooling.
 
 A lot of my recent work happens in private repositories, so this profile highlights public OSS contributions and selected public projects.
