@@ -28,9 +28,3 @@
 - [context-optimizer](https://github.com/shuhei0866/context-optimizer) - Claude Code のセッションログを分析し、CLAUDE.md と AGENTS.md を通じてコンテキストコストを下げる CLI
 - [vdd-framework](https://github.com/shuhei0866/vdd-framework) - AI 自律開発を安全境界付きで進めるための Vision-Driven Development / Release-Driven Development フレームワーク
 - [my-ubuntu-settings](https://github.com/shuhei0866/my-ubuntu-settings) - keyd、GNOME、libinput-gestures を使って Ubuntu に Mac 風のキーバインドと操作感を持ち込む設定集
-
-## Activity snapshot
-
-<picture>
-  <img src="./assets/metrics.svg" alt="GitHub activity metrics">
-</picture>
