@@ -20,7 +20,7 @@
 - 曖昧なプロダクト課題や基盤課題を、出荷可能な設計と実装に落とし込むこと
 - Rust、TypeScript、Python、shell を使ったアプリケーション実装と開発基盤整備
 - CI、guardrails、review、release automation などの開発フロー改善
-- local-first / AI-assisted なエンジニアリヰグシステムの設計と実装
+- local-first / AI-assisted なエンジニアリングシステムの設計と実装
 
 ## 公開プロジェクト
 
