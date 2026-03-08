@@ -28,9 +28,3 @@ A lot of my recent work happens in private repositories, so this profile highlig
 - [context-optimizer](https://github.com/shuhei0866/context-optimizer) - CLI for analyzing Claude Code session logs and reducing context cost through CLAUDE.md and AGENTS.md
 - [vdd-framework](https://github.com/shuhei0866/vdd-framework) - Vision-Driven Development / Release-Driven Development framework for AI-autonomous software development with enforced guardrails
 - [my-ubuntu-settings](https://github.com/shuhei0866/my-ubuntu-settings) - Ubuntu setup for Mac-like keybindings, gestures, and shell defaults with keyd, GNOME, and libinput-gestures
-
-## Activity snapshot
-
-<picture>
-  <img src="./assets/metrics.svg" alt="Activity metrics generated from GitHub data">
-</picture>
