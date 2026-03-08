@@ -35,12 +35,8 @@ jobs:
           filename: assets/metrics.svg
           base: ""
           config_display: large
-          config_order: notable, lines, followup
+          config_order: notable, followup
           config_timezone: Asia/Tokyo
-          plugin_lines: yes
-          plugin_lines_delay: 30
-          plugin_lines_sections: repositories
-          plugin_lines_repositories_limit: 4
           plugin_followup: yes
           plugin_followup_sections: user
           plugin_notable: yes
