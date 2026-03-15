@@ -19,11 +19,7 @@ A lot of my recent work happens in private repositories, so this profile highlig
 
 ## GitHub Stats
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true" width="48%" />
-</picture>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shuhei0866&hide_border=true&theme=tokyonight" width="48%" />
+<a href="https://github.com/shuhei0866"><img src="https://github-readme-stats.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" width="48%" /></a><a href="https://github.com/shuhei0866"><img src="https://github-readme-streak-stats.herokuapp.com/?user=shuhei0866&hide_border=true&theme=tokyonight" width="48%" /></a>
 
 ## Public OSS contributions
 
