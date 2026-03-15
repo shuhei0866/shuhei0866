@@ -6,6 +6,25 @@ I build product systems across mobile, desktop, backend, and developer tooling.
 
 A lot of my recent work happens in private repositories, so this profile highlights public OSS contributions and selected public projects.
 
+## Tech Snapshot
+
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?logo=zig&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?logo=gnubash&logoColor=white)
+![GTK](https://img.shields.io/badge/GTK4-4A86CF?logo=gtk&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
+## GitHub Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true" width="48%" />
+</picture>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shuhei0866&hide_border=true&theme=tokyonight" width="48%" />
+
 ## Public OSS contributions
 
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
