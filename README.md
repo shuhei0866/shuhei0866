@@ -20,7 +20,7 @@ A lot of my recent work happens in private repositories, so this profile highlig
 ## GitHub Stats
 
 <table><tr>
-<td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&card_width=495" width="100%" /></td>
+<td width="50%"><img src="https://github-readme-stats-snf0866s-projects.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&card_width=495" width="100%" /></td>
 <td width="50%"><img src="https://github-readme-streak-stats.herokuapp.com/?user=shuhei0866&hide_border=true&theme=tokyonight" width="100%" /></td>
 </tr></table>
 
