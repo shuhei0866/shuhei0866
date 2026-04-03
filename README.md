@@ -29,9 +29,9 @@ A lot of my recent work happens in private repositories, so this profile highlig
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
   - Building the Linux-native port in Rust with GTK4/libadwaita for a Ghostty-based terminal for AI coding agents
   - PR: [#828](https://github.com/manaflow-ai/cmux/pull/828)
-- [coinbase/x402](https://github.com/coinbase/x402)
+- [x402-foundation/x402](https://github.com/x402-foundation/x402)
   - Added async dynamic hooks for pricing and metadata in the v2 SDK, extending payment requirements beyond static configuration
-  - PR: [#900](https://github.com/coinbase/x402/pull/900)
+  - PR: [#900](https://github.com/x402-foundation/x402/pull/900)
 
 ## What I focus on
 

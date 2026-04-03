@@ -11,9 +11,9 @@
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
   - Ghostty ベースの AI コーディング向けターミナルに対して、Rust + GTK4/libadwaita による Linux ネイティブ移植を進めています
   - PR: [#828](https://github.com/manaflow-ai/cmux/pull/828)
-- [coinbase/x402](https://github.com/coinbase/x402)
+- [x402-foundation/x402](https://github.com/x402-foundation/x402)
   - v2 SDK に pricing / metadata の async dynamic hooks を追加し、静的設定だけでは扱いにくい payment requirements を拡張しました
-  - PR: [#900](https://github.com/coinbase/x402/pull/900)
+  - PR: [#900](https://github.com/x402-foundation/x402/pull/900)
 
 ## 得意領域
 
