@@ -1,0 +1,50 @@
+name: Update streak stats
+
+on:
+  schedule:
+    # 毎日 03:00 JST (18:00 UTC)
+    - cron: "0 18 * * *"
+  push:
+    paths:
+      - ".github/workflows/streak-stats.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # action.yml は `token: ${{ inputs.token || github.token }}` と書かれており、
+      # secret が未設定でも失敗せず public のみの streak を生成してしまう。
+      # private 込みが要件なので、ここで明示的に落とす。
+      - name: Verify token secret is present
+        env:
+          TOKEN: ${{ secrets.STREAK_STATS_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::STREAK_STATS_TOKEN is not set; private contributions would be dropped silently."
+            exit 1
+          fi
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@f69662e10794e8757b12d3303a113a30b01c9bc9 # main @ 2026-08-06
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ secrets.STREAK_STATS_TOKEN }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          if git diff --staged --quiet; then
+            echo "streak.svg に変更なし。commit をスキップする。"
+            exit 0
+          fi
+          git commit -m "chore: update streak stats"
+          git push
