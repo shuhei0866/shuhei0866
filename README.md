@@ -20,7 +20,7 @@ A lot of my recent work happens in private repositories, so this profile highlig
 ## GitHub Stats
 
 <table><tr>
-<td width="50%"><img src="https://github-readme-stats-snf0866s-projects.vercel.app/api?username=shuhei0866&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&card_width=495" width="100%" /></td>
+<td width="50%"><img src="./profile/stats.svg" alt="GitHub Stats" width="100%" /></td>
 <td width="50%"><img src="./profile/streak.svg" alt="GitHub Streak" width="100%" /></td>
 </tr></table>
 
