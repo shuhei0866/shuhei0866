@@ -10,7 +10,7 @@ from scripts.update_stats import update_card, validate_card
 VALID = b'''<svg xmlns="http://www.w3.org/2000/svg">
 <text data-testid="stars">22</text><text data-testid="commits">632</text>
 <text data-testid="prs">157</text><text data-testid="issues">49</text>
-<text data-testid="contribs">14</text></svg>'''
+<text data-testid="contribs">14</text></svg>\n'''
 ERROR = b'''<svg xmlns="http://www.w3.org/2000/svg">
 <text data-testid="message">Cannot read properties of undefined (reading 'user')</text>
 </svg>'''

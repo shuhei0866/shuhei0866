@@ -40,6 +40,7 @@ def update_card(destination=DESTINATION):
             if len(data) > 128 * 1024:
                 raise ValueError("Stats card is unexpectedly large")
             validate_card(data)
+            data = b"\n".join(line.rstrip() for line in data.strip().splitlines()) + b"\n"
             break
         except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError):
             if attempt == 2:
