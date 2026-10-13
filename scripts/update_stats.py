@@ -28,7 +28,7 @@ def validate_card(data):
     for name in ("stars", "commits", "prs", "issues", "contribs"):
         node = fields.get(name)
         value = "" if node is None else "".join(node.itertext()).strip()
-        if not re.fullmatch(r"\d[\d,]*(?:\.\d+)?[kmb]?", value, re.IGNORECASE):
+        if not re.fullmatch(r"(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)?[kmb]?", value, re.IGNORECASE):
             raise ValueError(f"Missing or invalid stats field: {name}")
 
 

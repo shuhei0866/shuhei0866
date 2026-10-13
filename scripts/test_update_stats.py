@@ -38,9 +38,15 @@ class UpdateStatsTests(unittest.TestCase):
             self.assertEqual(destination.read_bytes(), VALID)
 
     def test_missing_and_non_numeric_stats_are_rejected(self):
-        for data in (VALID.replace(b'14', b''), VALID.replace(b'632', b'undefined')):
+        for value in (b'', b'undefined', b'1,', b'1,,2', b'12,34'):
+            data = VALID.replace(b'632', value)
             with self.subTest(data=data), self.assertRaises(ValueError):
                 validate_card(data)
+
+    def test_grouped_and_compact_counts_are_accepted(self):
+        for value in (b'0', b'1,234', b'12,345,678', b'1.2k'):
+            with self.subTest(value=value):
+                validate_card(VALID.replace(b'632', value))
 
 
 if __name__ == "__main__":
