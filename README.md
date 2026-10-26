@@ -32,6 +32,8 @@ A lot of my recent work happens in private repositories, so this profile highlig
 - [x402-foundation/x402](https://github.com/x402-foundation/x402)
   - Added async dynamic hooks for pricing and metadata in the v2 SDK, extending payment requirements beyond static configuration
   - PR: [#900](https://github.com/x402-foundation/x402/pull/900)
+  - Fixed EIP-3009 verify error classification in Go and TypeScript so recognized contract reverts retain specific reasons while transport failures remain retryable
+  - Merged PR: [#3101](https://github.com/x402-foundation/x402/pull/3101)
 
 ## What I focus on
 

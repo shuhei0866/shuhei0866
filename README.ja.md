@@ -14,6 +14,8 @@
 - [x402-foundation/x402](https://github.com/x402-foundation/x402)
   - v2 SDK に pricing / metadata の async dynamic hooks を追加し、静的設定だけでは扱いにくい payment requirements を拡張しました
   - PR: [#900](https://github.com/x402-foundation/x402/pull/900)
+  - Go / TypeScript の EIP-3009 検証時のエラー分類を修正し、既知のリバート理由を保持して、再試行可能な通信障害と区別できるようにしました
+  - マージ済み PR: [#3101](https://github.com/x402-foundation/x402/pull/3101)
 
 ## 得意領域
 
