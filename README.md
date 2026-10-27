@@ -34,6 +34,8 @@ A lot of my recent work happens in private repositories, so this profile highlig
   - PR: [#900](https://github.com/x402-foundation/x402/pull/900)
   - Fixed EIP-3009 verify error classification in Go and TypeScript so recognized contract reverts retain specific reasons while transport failures remain retryable
   - Merged PR: [#3101](https://github.com/x402-foundation/x402/pull/3101)
+  - Strengthened Python batch-settlement recovery tests to cover voucher signatures, cumulative amount boundaries, onchain-only fallback, and state preservation on failure
+  - Merged PR: [#3979](https://github.com/x402-foundation/x402/pull/3979)
 
 ## What I focus on
 

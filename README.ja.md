@@ -16,6 +16,8 @@
   - PR: [#900](https://github.com/x402-foundation/x402/pull/900)
   - Go / TypeScript の EIP-3009 検証時のエラー分類を修正し、既知のリバート理由を保持して、再試行可能な通信障害と区別できるようにしました
   - マージ済み PR: [#3101](https://github.com/x402-foundation/x402/pull/3101)
+  - Python の batch-settlement 復旧テストを強化し、voucher の署名・累積額の境界・オンチェーン値へのフォールバック・失敗時の状態保持を確認するケースを追加しました
+  - マージ済み PR: [#3979](https://github.com/x402-foundation/x402/pull/3979)
 
 ## 得意領域
 
